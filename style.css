@@ -1,5 +1,5 @@
 body {
-    background-color: #dbf995;
+    background-color: #000000;
     font-size: 2vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -33,6 +33,7 @@ body {
 
 #hamitems a:hover {
     background: #ea606000;
+    text-decoration: underline;
 }
 
 /* (C) HIDE HAMBURGER */
