@@ -1,7 +1,6 @@
 /*-----Tags----*/
 body {
     background-color: #dee1d6;
-
 }
 
 h1 {
@@ -209,12 +208,13 @@ h1 {
     grid-template-rows: repeat(11, calc(100vh / 11));
     grid-template-columns: repeat(11, calc(100vh / 11));
     width: 100vh;
-    
+
     font-size: 1.3vh;
     font-family: 'Roboto', sans-serif;
     gap: 5px;
     font-weight: bold;
-    transform: rotate(315deg) /*translateY(23em);*/
+    transform: rotate(315deg)
+        /*translateY(23em);*/
 }
 
 .black {
