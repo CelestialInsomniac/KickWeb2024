@@ -1,0 +1,32 @@
+/*-----Tags----*/
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color:aquamarine;
+    font-size: 28px;
+}
+
+p{
+    color:blueviolet;
+    font-size: 16px;
+    
+}
+
+/*-----ID----*/
+#poetry{
+
+}
+
+/*-----Klassen----*/
+.first{
+
+}
+.second{
+
+}
+.third{
+
+}
