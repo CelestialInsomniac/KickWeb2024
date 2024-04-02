@@ -166,13 +166,13 @@ h1 {
 /*-----TEXT----*/
 #textbox00 {
     grid-area: 6 / 3 / 7 / 5;
-    line-height: 150%;
+    line-height: 250%;
     margin-left: 1.8em;
 }
 
 #textbox01 {
     grid-area: 7 / 3 / 8 / 10;
-    line-height: 150%;
+    line-height: 250%;
     margin-left: 1.8em;
 }
 
