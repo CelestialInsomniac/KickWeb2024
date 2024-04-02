@@ -1,14 +1,17 @@
 body {
     background-color: #dee1d6;
-    font-size: 2vh;
+    font-size: 8vh;
     font-family:  'Roboto', sans-serif;
 }
 
-/*-----Text----*/
-
-
 /*-----Klassen----*/
-/* [ON BIG SCREEN] */
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+    margin: 20px;
+  }
+  
 /* (A) WRAPPER */
 #hamnav {
     width: 100%;
@@ -19,7 +22,9 @@ body {
 
 /* (B) HORIZONTAL MENU ITEMS */
 #hamitems {
-    display: flex;
+    display:contents;
+    justify-content: space-between;
+    
 }
 
 #hamitems a {
