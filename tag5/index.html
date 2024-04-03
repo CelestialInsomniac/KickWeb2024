@@ -6,74 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transformationen</title>
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-family: Arial, Helvetica, sans-serif;
-    
-        }
-        h1{
-            margin-top:100px;
-        }
-        .group {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-           
-        }
-        /* beide elemente liegen ursprünglich übereinander */
-        
-        .not_transformed,
-        .transformed {
-            grid-column: 1 / 2;
-            grid-row: 1 / 2;
-            height: 400px;
-            width: 400px;
-        }
-        /* zur visuellen unterscheidung zwei unterschiedliche stile zuweisen */
-        
-        .not_transformed {
-            background-color: black;
-        }
-        
-        .transformed {
-            background-color: rgba(0, 0, 255, 0.5);
-
-        }
-        
-        .verschieben {
-            transform: translate(200px, 100px);
-        }
-        
-        .drehen {
-            transform: rotate(45deg);
-            transform-origin: bottom left;
-        }
-        
-        .skalieren {
-            transform: scale(0.75, 0.9);
-            transform-origin: center;
-            color: white;
-            font-size: 5rem;
-            ;
-        }
-        
-        .verzerren {
-            transform: skew(10deg, 30deg);
-            color: white;
-            font-size: 5rem;
-        }
-        
-        .mehrere {
-            transform: rotate(45deg) scale(0.5);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="/../index.html">
+                    <li>Menu</li>
+                </a>
+                <a href="/../tag1/fabulouscss/index.html">
+                    <li>Tag 1</li>
+                </a>
+                <a href="/../tag2/fabulouscss/index.html">
+                    <li>Tag 2</li>
+                </a>
+                <a href="/../tag3/Plakat/index.html">
+                    <li>Tag 3</li>
+                </a>
+                <a href="/../tag4/Plakat/index.html">
+                    <li>Tag 4</li>
+                </a>
+                <a href="index.html">
+                    <li>Tag 5</li>
+                </a>
+                <a href="/../tag6/index.html">
+                    <li>Tag 6</li>
+                </a>
+                <a href="/../tag7/index.html">
+                    <li>Tag 7</li>
+                </a>
+                <a href="/../tag8/index.html">
+                    <li>Tag 8</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
     <section>
         <h1>Translate</h1>
         <div class="group">
