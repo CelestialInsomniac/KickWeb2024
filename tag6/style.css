@@ -30,7 +30,6 @@ h1 {
 #menuToggle a {
     text-decoration: none;
     color: black;
-
     transition: color 0.3s ease;
 }
 
@@ -98,7 +97,7 @@ h1 {
 
 #menu {
     position: absolute;
-    width: 80px;
+    width: 55px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
