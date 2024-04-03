@@ -1,12 +1,12 @@
 /*-----Tags----*/
 body {
     background-color: #dee1d6;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     color: black;
     font-size: 12vh;
-    font-family: 'Roboto', sans-serif;
     letter-spacing: -6px;
     margin-top: 70px;
     margin-left: 25px;
