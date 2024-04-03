@@ -15,7 +15,6 @@ h1 {
     margin-left: 25px;
 }
 
-
 /*-----ID----*/
 /*-----BOXES----*/
 /*-----BLACK----*/
@@ -166,13 +165,26 @@ h1 {
     grid-area: 5 / 3 / 6 / 5;
     line-height: 950%;
     margin-left: 1.8em;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+#textbox00:hover {
+    transform: translateX(700%);
 }
 
 #textbox01 {
     grid-area: 6 / 3 / 7 / 10;
     line-height: 950%;
     margin-left: 1.8em;
+    position: relative;
+    transition: transform 0.5s ease;
 }
+
+#textbox01:hover {
+    transform: translateX(-700%);
+}
+
 
 #textbox02 {
     grid-area: 5 / 6 / 6 / 8;
@@ -181,6 +193,12 @@ h1 {
     margin-left: 0.6em;
     margin-top: 2em;
     line-height: 140%;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+#textbox02:hover {
+    transform: translateY(-700%);
 }
 
 #textbox03 {
@@ -190,6 +208,12 @@ h1 {
     margin-left: 0.6em;
     margin-top: 0.7em;
     line-height: 140%;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+#textbox03:hover {
+    transform: translateY(700%);
 }
 
 #textbox04 {
@@ -199,10 +223,16 @@ h1 {
     margin-left: 0.6em;
     margin-top: 0.7em;
     line-height: 140%;
+    position: relative;
+    transition: transform 0.5s ease;
 }
 
-/*-----CLASSES----*/
+#textbox04:hover {
+    transform: translateX(230%);
+}
 
+
+/*-----CLASSES----*/
 .grid-container {
     display: grid;
     grid-template-rows: repeat(11, calc(100vh / 11));
@@ -213,7 +243,6 @@ h1 {
     gap: 5px;
     font-weight: bold;
     transform: rotate(315deg)
-        /*translateY(23em);*/
 }
 
 .black {
