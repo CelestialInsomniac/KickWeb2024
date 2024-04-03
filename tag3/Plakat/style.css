@@ -2,12 +2,12 @@
 body {
     background-color: #dee1d6;
     /*transform: rotate(315deg);*/
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     color: black;
     font-size: 10vh;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 

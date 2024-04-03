@@ -4,7 +4,6 @@ body {
     overflow-y: hidden;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-
 }
 
 h1 {
@@ -328,7 +327,7 @@ h1 {
 
 .rectangle_black {
     background-color: black;
-    animation: appearblack 6s infinite;
+    animation: appearblack 5s infinite;
 }
 
 @keyframes appearblack {
@@ -339,7 +338,7 @@ h1 {
 
 .rectangle_pink {
     background-color: #ed147f;
-    animation: appearpink 3s infinite;
+    animation: appearpink 1s infinite;
 }
 
 @keyframes appearpink {
@@ -354,7 +353,7 @@ h1 {
 
 .rectangle_turquoise {
     background-color: #00b2a2;
-    animation: appearturquoise 5s infinite;
+    animation: appearturquoise 3s infinite;
 }
 
 @keyframes appearturquoise {
