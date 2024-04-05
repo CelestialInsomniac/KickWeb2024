@@ -154,14 +154,44 @@ body {
   color: white;
   background-color: #dee1d6;
   z-index: 2;
+  position: relative;
 }
+.tag4 span {
+  position: absolute;
+  transform: scale(0.5);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: 0.3s;
+  z-index: 2;
 
-.tag4:hover {
+}
+.tag4::after {
+  opacity: 0;
+  content: "Sprint 1";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vh;
+  color: white;
+  transition: all 0.2s ease-in;
+  
+}
+.tag4:hover::after{
+  opacity: 1;
+}
+.tag4:hover span {
+  position: absolute;
   background-color: transparent;
   transform: scale(0.5);
+  top: 0;
+  left: 0;
   transform: translateX(-100px) translateY(-100px);
   transition: 0.3s;
   z-index: 2;
+  background-color: #ed147f;
+
 }
 
 .sprint1 {
