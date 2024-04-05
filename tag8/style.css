@@ -434,7 +434,7 @@ h1 {
     }
 
     #menu {
-        margin:0.2rem;
+        margin: 0.2rem;
         padding: 10px;
         background: #211e29;
     }
@@ -452,7 +452,7 @@ h1 {
         margin: auto;
         grid-template-rows: repeat(11, calc(100vh / 11));
         grid-template-columns: repeat(11, calc(100vh / 11));
-        width:25rem;
+        width: 25rem;
         height: 65rem;
         font-size: 1.2vh;
         font-family: 'Roboto', sans-serif;
@@ -464,7 +464,7 @@ h1 {
     .black {
         color: white;
     }
-    
+
     .rectangle_black {
         background-color: blackwhite;
     }
