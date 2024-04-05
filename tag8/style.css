@@ -28,7 +28,6 @@ h1 {
 #menuToggle a {
     text-decoration: none;
     color: black;
-
     transition: color 0.3s ease;
 }
 
@@ -43,9 +42,7 @@ h1 {
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0;
     z-index: 2;
     -webkit-touch-callout: none;
@@ -57,7 +54,6 @@ h1 {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #a0a09f;
     border-radius: 3px;
 
@@ -390,5 +386,94 @@ h1 {
 
     100% {
         transform: scale(0.8);
+    }
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #211e29;
+        margin-top: auto;
+        margin-left: auto;
+    }
+
+    h1 {
+        color: white;
+        font-size: 12vh;
+        letter-spacing: -1vh;
+        margin-top: auto;
+        margin-left: auto;
+    }
+
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 5px;
+        left: 5px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle a {
+        color: white;
+    }
+
+    #menuToggle a:hover {
+        color: #12eb80;
+    }
+
+    #menuToggle span {
+        width: 33px;
+        height: 3px;
+        background: #a0a09f;
+    }
+
+    #menuToggle input:checked~span {
+        background: #ff4d5d;
+    }
+
+    #menu {
+        margin:0.2rem;
+        padding: 10px;
+        background: #211e29;
+    }
+
+    #textbox00 {
+        transform: translateY(90%);
+    }
+
+    #textbox01 {
+        transform: translateY(90%);
+    }
+
+    .grid-container {
+        display: grid;
+        margin: auto;
+        grid-template-rows: repeat(11, calc(100vh / 11));
+        grid-template-columns: repeat(11, calc(100vh / 11));
+        width:25rem;
+        height: 65rem;
+        font-size: 1.2vh;
+        font-family: 'Roboto', sans-serif;
+        gap: 5px;
+        font-weight: bold;
+        transform: rotate(315deg)
+    }
+
+    .black {
+        color: white;
+    }
+    
+    .rectangle_black {
+        background-color: blackwhite;
+    }
+
+    .rectangle_pink {
+        background-color: #12eb80;
+    }
+
+    .rectangle_turquoise {
+        background-color: #ff4d5d;
     }
 }
