@@ -159,7 +159,7 @@ body {
 .tag4:hover {
   background-color: transparent;
   transform: scale(0.5);
-  transform:translateX(-100px) translateY(-100px);
+  transform: translateX(-100px) translateY(-100px);
   transition: 0.3s;
   z-index: 2;
 }
@@ -195,7 +195,7 @@ body {
 .tag8:hover {
   background-color: transparent;
   transform: scale(0.5);
-  transform:translateX(-100px) translateY(-100px);
+  transform: translateX(-100px) translateY(-100px);
   transition: 0.3s;
   z-index: 2;
 }
