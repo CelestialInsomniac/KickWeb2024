@@ -156,16 +156,18 @@ body {
   z-index: 2;
   position: relative;
 }
+
 .tag4 span {
-  position: absolute;
-  transform: scale(0.5);
+  position: center;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: 0.3s;
   z-index: 2;
-
+  text-decoration: underline;
+  white-space: nowrap;
 }
+
 .tag4::after {
   opacity: 0;
   content: "Sprint 1";
@@ -176,28 +178,23 @@ body {
   font-size: 8vh;
   color: white;
   transition: all 0.2s ease-in;
-  
+  color: #ed147f;
+  white-space: nowrap;
 }
+
 .tag4:hover::after{
   opacity: 1;
 }
+
 .tag4:hover span {
   position: absolute;
   background-color: transparent;
-  transform: scale(0.5);
   top: 0;
   left: 0;
   transform: translateX(-100px) translateY(-100px);
   transition: 0.3s;
   z-index: 2;
-  background-color: #ed147f;
-
-}
-
-.sprint1 {
-  grid-area: 1 / 4 / 2 / 4;
-  color: #ed147f;
-  z-index: 1;
+  text-decoration: none;
 }
 
 .tag5 {
@@ -220,18 +217,45 @@ body {
   color: white;
   background-color: #dee1d6;
   z-index: 2;
+  position: relative;
 }
 
-.tag8:hover {
+.tag8 span {
+  position: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: 0.3s;
+  z-index: 2;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.tag8::after {
+  opacity: 0;
+  content: "Sprint 2";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vh;
+  color: white;
+  transition: all 0.2s ease-in;
+  color: #00b2a2;
+  white-space: nowrap;
+}
+
+.tag8:hover::after{
+  opacity: 1;
+}
+
+.tag8:hover span {
+  position: absolute;
   background-color: transparent;
-  transform: scale(0.5);
+  top: 0;
+  left: 0;
   transform: translateX(-100px) translateY(-100px);
   transition: 0.3s;
   z-index: 2;
-}
-
-.sprint2 {
-  grid-area: 2 / 4 / 2 / 4;
-  color: #00b2a2;
-  z-index: 1;
+  text-decoration: none;
 }
