@@ -1,3 +1,9 @@
+body {
+    background-color: aquamarine;
+    font-size: 8vh;
+    font-family: 'Arial', sans-serif;
+}
+
 .flip-container {
     perspective: 1000px;
     display: inline-block;
@@ -27,19 +33,19 @@
 .front {
     z-index: 2;
     display: block;
+    text-decoration: none;
+
 }
 
 .back {
     transform: rotateY(180deg);
     transform-origin: left;
-    text-decoration: none; /* Remove underline */
     pointer-events: none; 
 }
 
 .flip-container .front a,
 .flip-container .back a {
-    color: inherit; /* Inherit color from parent */
-    text-decoration: none; /* Remove underline */
+    color: white; /* Inherit color from parent */
 }
 
 /* Adjust for vertical flipping */

@@ -4,11 +4,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*-----Klassen----*/
+/*-----Classes----*/
 
-
-
-/* MENU */
+/* DROPDOWNMENU */
 #menuToggle {
   display: block;
   position: relative;
@@ -112,8 +110,8 @@ body {
   transform: none;
 }
 
-
-#hamitems {
+/* MENU */
+#menuitems {
   display: grid;
   grid-template-rows: 2 auto;
   grid-template-columns: 4 auto;
@@ -123,15 +121,16 @@ body {
   margin-left: 150px;
   margin-right: 150px;
   gap: 200px;
+  z-index: 1;
 }
 
-#hamitems a {
+#menuitems a {
   padding: 10px;
   color: white;
   text-align: center;
 }
 
-#hamitems a:hover {
+#menuitems a:hover {
   text-decoration: none;
 }
 
@@ -167,4 +166,52 @@ body {
 
 .tag8 {
   grid-area: 2 / 4 / 2 / 4;
+}
+
+/* FLIPS */
+.sprint1 .flipper1 {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  grid-area: 1 / 4 / 2 / 4;
+  /*position: relative;*/
+}s
+
+.sprint1:hover .flipper1,
+.sprint1.hover .flipper1 {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  grid-area: 1 / 4 / 2 / 4;
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  display: grid;
+  text-decoration: none;
+}
+
+.back {
+  transform: rotateY(180deg);
+  transform-origin: left;
+  pointer-events: none; 
+}
+
+.sprint1 .front a,
+.sprint1 .back a {
+  color: #ed147f;
+}
+
+/* Adjust for vertical flipping */
+.flipper1 {
+  transform-origin: center;
+}
+
+.back {
+  transform-origin: center;
 }
