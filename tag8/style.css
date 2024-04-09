@@ -3,6 +3,7 @@ body {
     background-color: #dee1d6;
     overflow-y: hidden;
     font-family: 'Roboto', sans-serif;
+    position:inherit;
 }
 
 h1 {
@@ -450,6 +451,7 @@ h1 {
     .grid-container {
         display: grid;
         margin: auto;
+        margin-left: -2rem;
         grid-template-rows: repeat(11, calc(100vh / 11));
         grid-template-columns: repeat(11, calc(100vh / 11));
         width: 25rem;
