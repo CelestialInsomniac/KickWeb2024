@@ -139,14 +139,26 @@ body {
   color: white;
 }
 
+.tag1:hover {
+  background-color: #ed147f;
+}
+
 .tag2 {
   grid-area: 1 / 2 / 1 / 2;
   color: white;
 }
 
+.tag2:hover {
+  background-color: black;
+}
+
 .tag3 {
   grid-area: 1 / 3 / 2 / 3;
   color: white;
+}
+
+.tag3:hover {
+  background-color: #00b2a2;
 }
 
 .tag4 {
@@ -202,14 +214,26 @@ body {
   color: white;
 }
 
+.tag5:hover {
+  background-color: black;
+}
+
 .tag6 {
   grid-area: 2 / 2 / 2 / 2;
   color: white;
 }
 
+.tag6:hover {
+  background-color: #00b2a2;
+}
+
 .tag7 {
   grid-area: 2 / 3 / 2 / 3;
   color: white;
+}
+
+.tag7:hover {
+  background-color: #ed147f;
 }
 
 .tag8 {
